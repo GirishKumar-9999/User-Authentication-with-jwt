@@ -1,19 +1,16 @@
-# User-Authentication-with-jwt
-
 api endpoints
 
-api to signup: http://localhost:8080/api/auth/signup 
-body: { username, email, password }
+body: username, email, password
+http://localhost:8080/api/auth/signup 
 
-api to signin: http://localhost:8080/api/auth/signin 
-body: { username, password }
+body: username, password
+http://localhost:8080/api/auth/signin 
 
-api to reset_password: http://localhost:8080/api/auth/reset_password 
-body: { username, password, newPassword, confirmPassword }
+body: username, password, newPassword, confirmPassword
+http://localhost:8080/api/auth/reset_password 
 
-Everyone can access this api:
+Everyone can access this
 http://localhost:8080/api/test/all 
 
-Only logged in users can access this api: 
+Only logged in users can access this
 http://localhost:8080/api/test/user 
-
